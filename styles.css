@@ -1,0 +1,8 @@
+/* barra navegacion main page */
+.navbar {
+    padding: 2rem;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
