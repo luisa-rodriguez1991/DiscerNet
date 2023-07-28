@@ -6,3 +6,12 @@
     align-items: center;
     justify-content: space-between;
 }
+/* main section */
+.icons-container i{
+    font-size: 30px;
+    margin-right: 12px;
+}
+.post-friends img {
+    width: 45px;
+    height: 45px;
+}
