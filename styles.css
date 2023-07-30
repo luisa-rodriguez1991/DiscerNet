@@ -15,3 +15,18 @@
     width: 45px;
     height: 45px;
 }
+.news img {
+    width: 70%;
+}
+.news-rating i {
+    font-size: 30px;
+    margin-right: 12px;
+}
+.new-actions i {
+    font-size: 20px;
+    margin-right: 32px;
+}
+.group-link {
+    text-decoration: none;
+}
+.news-rating i
