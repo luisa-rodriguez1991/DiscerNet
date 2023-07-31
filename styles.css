@@ -6,6 +6,14 @@
     align-items: center;
     justify-content: space-between;
 }
+/* user section */
+.fixed-height {
+    width: 18rem;
+}
+.list-group hr {
+    border: 1px solid #1100ff; 
+   
+}
 /* main section */
 .icons-container i{
     font-size: 30px;
@@ -28,4 +36,16 @@
 }
 .group-link {
     text-decoration: none;
+}
+.news-rating a {
+    transition: 0.2sg;
+}
+.news-rating a:hover {
+    transform: scale(1.05);
+}
+/* user section  */
+@media (min-width: 992px) {
+    .fixed-height {
+      height: 300px; 
+    }
 }
