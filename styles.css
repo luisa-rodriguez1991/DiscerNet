@@ -39,6 +39,12 @@
 .news-rating a:hover {
     transform: scale(1.05);
 }
+.section-apart {
+    width: 85%;
+}
+.recomend {
+    width: 75%;
+}
 /* user section  */
 @media (min-width: 992px) {
     .fixed-height {
