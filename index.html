@@ -16,10 +16,10 @@
     />
     <link href="./styles.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="bg-primary">
     <!-- navegation-page-->
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -42,52 +42,107 @@
             class="navbar-nav d-flex justify-content-center align-items-center"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >Inicio</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mensajes</a>
+              <a class="nav-link fw-bold" href="#">Mensajes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Notificaciones</a>
+              <a class="nav-link fw-bold" href="#">Noticias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mi red</a>
+              <a class="nav-link fw-bold" href="#">foros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Perfil</a>
+              <a class="nav-link fw-bold" href="#">Perfil</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    
+    <!-- section user -->
     <section class="container">
-      <div class="row d-flex justify-content-center ">
-        <!-- user section -->
-        <div
-          class="col-sm-8 col-lg-4 d-flex justify-content-center"
-          
-        >
-          <div class="card border border-0 m-3 sticky-top fixed-height ">
+      <div class="row d-flex justify-content-center">
+        <!-- user-section -->
+        <div class="col-sm-8 col-lg-4 d-flex justify-content-center">
+          <div
+            class="card border border-0 m-3 sticky-top fixed-height bg-white"
+          >
             <img
               src="./assest/user.png"
               class="card-img-top rounded-circle p-3"
               alt="imagen de usuario"
             />
-            <ul class="list-group list-group-flush ">
-              <li class="list-group-item"><a class="group-link active" href="#">Siguiendo</a></li>
-              <li class="list-group-item"><a class="group-link active" href="#">Grupos</a></li>
-              <li class="list-group-item"><a class="group-link active" href="#">foros</a></li>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-white dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    siguiendo +3
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Bruce baner</a></li>
+                    <li><a class="dropdown-item" href="#">Nicola.T</a></li>
+                    <li><a class="dropdown-item" href="#">Mari curi</a></li>
+                    <li><a class="dropdown-item" href="#">Adriana Ocamp</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-white dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Mis foros +2
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Multiverso</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Viaje en el tiempo</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Theoria de cuerdas</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-white dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Mis intereses
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Fisica</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Quimica</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Ingenieria</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
         <!-- seccion-right -->
-        <div class="col-sm-12 col-lg-8" >
-
-          <div
-            class="col p-4 m-4 align-items-center rounded-5 border border-primary"
-          >
-          <!-- post section -->
+        <div class="col-sm-12 col-lg-8">
+          <div class="col p-4 m-4 align-items-center rounded-5 bg-white p-1">
+            <!-- post section -->
             <div class="input-group flex-nowrap m-2">
               <span class="input-group-text" id="addon-wrapping">@</span>
               <input
@@ -99,15 +154,23 @@
               />
             </div>
             <div class="icons-container p-2">
-              <a class="icon-action-news" href="#" target="_blank"><i class="bi bi-card-image"></i></a>
-              <a class="icon-action-news" href="#" target="_blank"><i class="bi bi-camera-video"></i></a>
-              <a class="icon-action-news" href="#" target="_blank"><i class="bi bi-file-earmark-arrow-up"></i></a>
-              <a class="icon-action-news" href="#" target="_blank"><i class="bi bi-calendar3"></i></a>
+              <a class="icon-action-news" href="#" target="_blank"
+                ><i class="bi bi-card-image"></i
+              ></a>
+              <a class="icon-action-news" href="#" target="_blank"
+                ><i class="bi bi-camera-video"></i
+              ></a>
+              <a class="icon-action-news" href="#" target="_blank"
+                ><i class="bi bi-file-earmark-arrow-up"></i
+              ></a>
+              <a class="icon-action-news" href="#" target="_blank"
+                ><i class="bi bi-calendar3"></i
+              ></a>
             </div>
           </div>
           <!-- seccion de post recomendados -->
           <div
-            class="post-friends col p-4 m-4 align-items-center rounded-5 border border-primary"
+            class="post-friends col p-4 m-4 align-items-center rounded-5 bg-white"
           >
             <h4>Recomendaciones</h4>
             <div class="d-flex">
@@ -144,9 +207,7 @@
             </div>
           </div>
           <!-- Seccion de noticias -->
-          <div
-            class="news col p-4 m-4 align-items-center rounded-5 border border-primary"
-          >
+          <div class="news col p-4 m-4 align-items-center rounded-5 bg-white">
             <h4>Noticias Destacadas</h4>
             <img
               class="p-3"
@@ -167,53 +228,77 @@
             </div>
             <!-- rating de noticias -->
             <div class="news-rating p-1">
-              <a class="icon-action-news" href="#" target="_blank"><i class="bi bi-star"></i></a>
-              <a class="icon-action-news" href="#" target="_blank"><i class="bi bi-star"></i></a>
-              <a class="icon-action-news" href="#" target="_blank"><i class="bi bi-star"></i></a>
-              <a class="icon-action-news" href="#" target="_blank"><i class="bi bi-star"></i></a>
-              <a class="icon-action-news" href="#" target="_blank"><i class="bi bi-star"></i></a>
+              <a class="icon-action-news" href="#" target="_blank"
+                ><i class="bi bi-star"></i
+              ></a>
+              <a class="icon-action-news" href="#" target="_blank"
+                ><i class="bi bi-star"></i
+              ></a>
+              <a class="icon-action-news" href="#" target="_blank"
+                ><i class="bi bi-star"></i
+              ></a>
+              <a class="icon-action-news" href="#" target="_blank"
+                ><i class="bi bi-star"></i
+              ></a>
+              <a class="icon-action-news" href="#" target="_blank"
+                ><i class="bi bi-star"></i
+              ></a>
             </div>
             <div class="new-actions m-1">
-              <a class="icon-action-news" href="#" target="_blank"><i class="bi bi-chat"></i></a>
-              <a class="icon-action-news" href="#" target="_blank"><i class="bi bi-share"></i></a>
-              <a class="icon-action-news" href="#" target="_blank"><i class="bi bi-send"></i></a>
+              <a class="icon-action-news" href="#" target="_blank"
+                ><i class="bi bi-chat"></i
+              ></a>
+              <a class="icon-action-news" href="#" target="_blank"
+                ><i class="bi bi-share"></i
+              ></a>
+              <a class="icon-action-news" href="#" target="_blank"
+                ><i class="bi bi-send"></i
+              ></a>
             </div>
           </div>
           <!-- seccion de foros -->
           <div
-            class="col post-friends col p-4 m-4 align-items-center rounded-5 border border-primary"
-           
+            class="col post-friends col p-4 m-4 align-items-center rounded-5 bg-white"
           >
             <h4>Foros</h4>
             <div class="d-flex align-items-center">
               <div class="p-3">
-                <img class="" src="./assest/marie-curie.jpg" />
+                <img class="" src="./assest/termo-basica.png" />
               </div>
               <div class="d-flex align-items-center mt-3">
-                <p>Foro Multiverso.</p>
+                <p class="fw-bold">Termo dinamica basica</p>
               </div>
               <div>
-                <button type="button" class="btn btn-outline-primary btn-sm m-3">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary btn-sm m-3"
+                >
                   Seguir+
                 </button>
               </div>
             </div>
             <div class="d-flex align-items-center">
-              <div class="p-3"><img class="" src="./assest/Tesla.jpeg" /></div>
+              <div class="p-3"><img class="" src="./assest/teoria-cuerdas.jpg" /></div>
               <div class="d-flex align-items-center mt-3">
-                <p>Foro teoria de cuerdas</p>
+                <p class="fw-bold">Foro teoria de cuerdas</p>
               </div>
               <div>
-                <button type="button" class="btn btn-outline-primary btn-sm m-3">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary btn-sm m-3"
+                >
                   Seguir+
                 </button>
               </div>
             </div>
             <div class="d-flex align-items-center">
-              <div class="p-3"><img class="" src="./assest/Albert.jpg" /></div>
+              <div class="p-3"><img class="" src="./assest/viajar-al-pasado.jpg" /></div>
               <div class="d-flex align-items-end mt-1">
-                <p>Foro viaje en el tiempo</p>
-                <button type="button" class="btn btn-outline-primary  btn-sm m-3">
+                <p class="fw-bold">Foro viaje en el tiempo</p>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary btn-sm m-3"
+                >
                   Seguir+
                 </button>
               </div>
@@ -222,7 +307,6 @@
         </div>
       </div>
     </section>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

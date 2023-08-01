@@ -10,10 +10,6 @@
 .fixed-height {
     width: 18rem;
 }
-.list-group hr {
-    border: 1px solid #1100ff; 
-   
-}
 /* main section */
 .icons-container i{
     font-size: 30px;
