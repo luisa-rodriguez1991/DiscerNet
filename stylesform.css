@@ -8,7 +8,7 @@
 
 .square1{
     background-color: white;
-    height: 400px;
+    height: 80%;
     /*border-radius: 5px;*/
 }
 
@@ -29,10 +29,23 @@
 }
 
 
-@media(min-width:496px){
+/*@media screen and (max-width:700px){
 
     #imgppal {
         display: none;
     }
+
+    .square1{
+        height: 50%;
+    }
     
-}
+}*/
+
+@media screen and (max-width: 1024px) {
+    .square1 {
+      /* Estilos para cuando la pantalla sea menor a 700px */
+      height: 30%; /* Por ejemplo, el elemento se encogerá al 80% de su tamaño original */
+      /* Otros estilos adicionales si es necesario */
+    }
+  }
+  

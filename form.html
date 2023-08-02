@@ -44,9 +44,9 @@
 
         </select>
 
-        <button type="button" class="btn btn-primary text1" onclick="mostrarMensaje()">Registrarse</button>
+        <button type="button" class="btn btn-primary text1" onclick="goindex()">Registrarse</button>
         <div class="text1">¿Ya tienes cuenta? entonces:</div>
-        <button type="button" class="btn btn-primary text1">Inicia sesión</button>
+        <button type="button" class="btn btn-primary text1" onclick="gopagina1()">Inicia sesión</button>
 
       </div>
 
@@ -65,7 +65,19 @@
       
 
     </div>
-    
+    <script>
+      function goindex() {
+        // Cambiar la URL de la página a la que deseas redireccionar
+        window.location.href = 'index.html';
+      }
+    </script>
+
+<script>
+  function gopagina1() {
+    // Cambiar la URL de la página a la que deseas redireccionar
+    window.location.href = 'pagina1.html';
+  }
+</script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
