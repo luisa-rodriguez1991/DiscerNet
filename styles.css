@@ -45,6 +45,10 @@
 .recomend {
     width: 75%;
 }
+.noticia {
+    width: 100%;
+}
+
 /* user section  */
 @media (min-width: 992px) {
     .fixed-height {
